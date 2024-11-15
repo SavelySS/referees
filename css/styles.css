@@ -1,0 +1,75 @@
+.wrapper {
+  background: url(../assets/img/bg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1024px;
+}
+
+main {
+  height: 100%;
+}
+
+.auth {
+  margin-left: 400px;
+  background: rgba(217, 217, 217, 0.95);
+  width: 530px;
+  height: 311px;
+  border-radius: 20px;
+}
+
+.form-content {
+  width: 360px;
+  height: 100%;
+}
+
+.login {
+  margin-top: 23px;
+  margin-bottom: 28px;
+}
+
+.forget-pass {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 17px;
+}
+.forget-pass a {
+  color: #A30303;
+  text-decoration: none;
+}
+.forget-pass a:hover {
+  text-decoration: underline;
+}
+
+.btn-entry {
+  width: 200px;
+  height: 36px;
+  color: white;
+  background: #A30303;
+  border-radius: 10px;
+  border: 2.5px;
+}
+.btn-entry:hover {
+  background: #6d0202;
+}
+
+.left-menu {
+  width: 420px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(8, 42, 105, 0.85);
+}
+
+.left-menu-main {
+  padding: 37px 46px 0px 46px;
+}
+
+.left-text {
+  color: white;
+  font-size: 55px;
+}/*# sourceMappingURL=styles.css.map */

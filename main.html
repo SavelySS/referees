@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Назначения на игры</title>
+  </head>
+  <body>
+    <nav class="d-flex flex-column justify-content-between">
+        <div class="logo"><img src="assets/img/logo_fhr-small.svg" alt=""></div>
+        <div class="menu">
+            <a href="ref.html" class="li d-flex align-items-center"><img src="assets/img/ref-icon.svg" alt=""><div class="menu__text">Карточка судьи</div></a>
+            <a href="normativ.html" class="li d-flex align-items-center"><img src="assets/img/normativ-icon.svg" alt=""><div class="menu__text">Таблица нормативов</div></a>
+            <a href="main.html" class="li li__active d-flex align-items-center"><img src="assets/img/Calendar.svg" alt=""><div class="menu__text">Назначения на игры</div></a>
+            <a href="test.html" class="li d-flex align-items-center"><img src="assets/img/List.svg" alt=""><div class="menu__text">Тестирование</div></a>
+        </div>
+        <a href="index.html" class="exit"><img src="assets/img/exit.svg" alt=""></a>
+    </nav>
+    <div class="wrapper">
+        <header class="d-flex justify-content-between align-items-center">
+            <div class="text">Назначения на игры</div><div class="filter d-flex align-items-center justify-content-center"><img src="assets/img/filter.svg" alt=""></div>
+        </header>
+        <table class="table table-striped table-hover text-center custom-table">
+            <thead>
+                <tr>
+                    <th class="blue">Дата</th>
+                    <th class="blue">Стадион</th>
+                    <th class="blue">Статус</th>
+                    <th class="blue">Матч</th>
+                    <th class="blue">Стадия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">02.06.2024 10:00</th>
+                    <td>Локомотив</td>
+                    <td>СФО 2010</td>
+                    <td>ЦЗВС - Штурм</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">03.06.2024 12:00</th>
+                    <td>Динамо</td>
+                    <td>СФО 2011</td>
+                    <td>Спартак - Зенит</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">04.06.2024 14:00</th>
+                    <td>ЦСКА</td>
+                    <td>СФО 2012</td>
+                    <td>Рубин - Ахмат</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">05.06.2024 10:00</th>
+                    <td>Зенит</td>
+                    <td>СФО 2013</td>
+                    <td>Локомотив - Динамо</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">06.06.2024 12:00</th>
+                    <td>Спартак</td>
+                    <td>СФО 2014</td>
+                    <td>ЦСКА - Рубин</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">07.06.2024 14:00</th>
+                    <td>Ахмат</td>
+                    <td>СФО 2015</td>
+                    <td>Штурм - Зенит</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">08.06.2024 16:00</th>
+                    <td>Рубин</td>
+                    <td>СФО 2016</td>
+                    <td>Динамо - Спартак</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">09.06.2024 18:00</th>
+                    <td>Локомотив</td>
+                    <td>СФО 2017</td>
+                    <td>ЦСКА - Ахмат</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">10.06.2024 10:00</th>
+                    <td>Динамо</td>
+                    <td>СФО 2018</td>
+                    <td>Зенит - Рубин</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">11.06.2024 12:00</th>
+                    <td>ЦСКА</td>
+                    <td>СФО 2019</td>
+                    <td>Спартак - Локомотив</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">12.06.2024 14:00</th>
+                    <td>Зенит</td>
+                    <td>СФО 2020</td>
+                    <td>Ахмат - Динамо</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">13.06.2024 16:00</th>
+                    <td>Спартак</td>
+                    <td>СФО 2021</td>
+                    <td>ЦСКА - Штурм</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">14.06.2024 18:00</th>
+                    <td>Ахмат</td>
+                    <td>СФО 2022</td>
+                    <td>Локомотив - Рубин</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">15.06.2024 10:00</th>
+                    <td>Рубин</td>
+                    <td>СФО 2023</td>
+                    <td>Динамо - Зенит</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">16.06.2024 12:00</th>
+                    <td>Локомотив</td>
+                    <td>СФО 2024</td>
+                    <td>Спартак - Ахмат</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">17.06.2024 14:00</th>
+                    <td>Динамо</td>
+                    <td>СФО 2025</td>
+                    <td>ЦСКА - Зенит</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">18.06.2024 16:00</th>
+                    <td>ЦСКА</td>
+                    <td>СФО 2026</td>
+                    <td>Рубин - Локомотив</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">19.06.2024 18:00</th>
+                    <td>Зенит</td>
+                    <td>СФО 2027</td>
+                    <td>Ахмат - Спартак</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">20.06.2024 10:00</th>
+                    <td>Спартак</td>
+                    <td>СФО 2028</td>
+                    <td>Динамо - ЦСКА</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">21.06.2024 12:00</th>
+                    <td>Ахмат</td>
+                    <td>СФО 2029</td>
+                    <td>Локомотив - Зенит</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">22.06.2024 14:00</th>
+                    <td>Рубин</td>
+                    <td>СФО 2030</td>
+                    <td>Спартак - Ахмат</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">23.06.2024 16:00</th>
+                    <td>Локомотив</td>
+                    <td>СФО 2031</td>
+                    <td>ЦСКА - Динамо</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">24.06.2024 18:00</th>
+                    <td>Динамо</td>
+                    <td>СФО 2032</td>
+                    <td>Зенит - Рубин</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">25.06.2024 10:00</th>
+                    <td>ЦСКА</td>
+                    <td>СФО 2033</td>
+                    <td>Ахмат - Спартак</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">26.06.2024 12:00</th>
+                    <td>Зенит</td>
+                    <td>СФО 2034</td>
+                    <td>Локомотив - Динамо</td>
+                    <td class="d-flex justify-content-center"><div class="red">Не заполнено</div></td>
+                </tr>
+                <tr>
+                    <th scope="row">27.06.2024 14:00</th>
+                    <td>Спартак</td>
+                    <td>СФО 2035</td>
+                    <td>ЦСКА - Рубин</td>
+                    <td class="d-flex justify-content-center"><div class="green">Заполнено</div></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+  </body>
+</html>
